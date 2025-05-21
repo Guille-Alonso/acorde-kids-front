@@ -1,0 +1,42 @@
+.colorDatosAlumno{
+    color: #9AB1BC !important;
+    margin: 0 !important;
+    margin-top: 15px !important;
+    padding: 0 !important;
+}
+.preguntarSobreClases{
+    text-align: center !important;
+}
+
+.colorDatosClases{
+    color: #DFA57C !important;
+    margin: 0 !important;
+    margin-top: 15px !important;
+    padding: 0 !important;
+}
+
+/* .css-er619e-MuiFormHelperText-root {
+    color: #d32f2f !important;
+} */
+
+.imagenDeInicioForm{
+    max-width: '90vw';
+    max-height: '90vh';
+    border-radius: '8px';
+}
+
+@media (min-width: 768px) {
+    .imagenDeInicioForm{
+        max-width: '70vw';
+        max-height: '75vh';
+        border-radius: '8px';
+    }
+  }
+
+  .css-18y2hez-MuiFormHelperText-root{
+    color: #d32f2f !important;
+  }
+
+  .css-ztp610{
+    color: #d32f2f !important;
+  }

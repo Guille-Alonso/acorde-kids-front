@@ -1,0 +1,43 @@
+.colorBtnLogin {
+    background-color: #DFA57C !important;
+}
+
+.imgLogin {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+    /* para que el ::before no se salga */
+    z-index: 0;
+}
+
+.imgLogin::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/logoAcorde.jpeg');
+    background-repeat: repeat;
+    background-size: 100px;
+    background-position: top left;
+    opacity: 0.1;
+    /* 💡 controlá la opacidad */
+    z-index: -1;
+    /* lo pone por detrás del contenido */
+}
+
+
+@media (max-width: 600px) {
+    .imgLogin {
+        background-size: 70px;
+        /* Más chico en mobile */
+        min-height: 95vh;
+    }
+}
+  
+ 

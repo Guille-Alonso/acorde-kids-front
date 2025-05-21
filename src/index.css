@@ -1,0 +1,26 @@
+* {
+  font-family: 'Cuprum', sans-serif !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.botonInicialAcorde {
+  background-color: #F5EEB7 !important;
+  color: black !important;
+  border-color:  #F5EEB7 !important;
+}
+
+.botonEnviarFormPreInscripcion {
+  background-color: #F5EEB7 !important;
+  color: black !important;
+  border-color:  #F5EEB7 !important;
+}
+
+.colorDeFondo{
+  background-color: #9AB1BC !important;
+}
+
+.masInfo{
+  text-align: center;
+}
