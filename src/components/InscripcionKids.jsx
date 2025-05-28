@@ -636,9 +636,10 @@ const dia = useRef(null);
                     }}
                     control={
                       <Checkbox
+                        disabled
                         inputRef={dia}
                         checked={formValues.dia === "LUNES de 18.30hs a 19.30hs"}
-                        onChange={() => handleCheckboxChange("LUNES de 18.30hs a 19.30hs")}
+                        // onChange={() => handleCheckboxChange("LUNES de 18.30hs a 19.30hs")}
                       />
                     }
                     label="LUNES de 18.30hs a 19.30hs"
