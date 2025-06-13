@@ -34,22 +34,30 @@ const PreInscripcionExitosa = () => {
     };
 
     return (
-        <div style={styles.container}>
-            <h2 style={styles.title}>¡GRACIAS!</h2>
-            <h3 style={styles.monto}>
-                Su monto a pagar es {localStorage.getItem("monto")}
-            </h3>
-            <h4 style={styles.subtitle}>
-                La cuota debe abonarse del 1 al 10 de cada mes, transfiriendo al alias{' '}
-                <strong style={styles.strong}>Acorde2025.mp</strong>
-            </h4>
-            <h4 style={styles.subtitle}>
-                Enviar comprobante por correo a{' '}
-                <strong style={styles.strong}>acorde.yb@gmail.com</strong>{' '}
-                para confirmar su Inscripción.
-            </h4>
-        </div>
-    )
+      // <div style={styles.container}>
+      //     <h2 style={styles.title}>¡GRACIAS!</h2>
+      //     <h3 style={styles.monto}>
+      //         Su monto a pagar es {localStorage.getItem("monto")}
+      //     </h3>
+      //     <h4 style={styles.subtitle}>
+      //         La cuota debe abonarse del 1 al 10 de cada mes, transfiriendo al alias{' '}
+      //         <strong style={styles.strong}>Acorde2025.mp</strong>
+      //     </h4>
+      //     <h4 style={styles.subtitle}>
+      //         Enviar comprobante por correo a{' '}
+      //         <strong style={styles.strong}>acorde.yb@gmail.com</strong>{' '}
+      //         para confirmar su Inscripción.
+      //     </h4>
+      // </div>
+
+      <div style={styles.container}>
+        <h2 style={styles.title}>¡GRACIAS!</h2>
+        <h3 style={styles.subtitle}>
+          Nosotros nos comunicaremos con vos, <br /> después de ver los cupos
+          disponibles!
+        </h3>
+      </div>
+    );
 }
 
 export default PreInscripcionExitosa
