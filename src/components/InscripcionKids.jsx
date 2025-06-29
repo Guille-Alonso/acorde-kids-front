@@ -303,9 +303,6 @@ const dia = useRef(null);
             ➡Las clases son una vez a la semana, se puede elegir los días LUNES o JUEVES de 18.30hs a 19.30hs.
             <br />
             <br />
-            ➡El valor de la cuota es de $40.000 mensual.
-            <br />
-            <br />
             ➡Las clases de este grupo, inician el Lunes 2 de Junio. Los grupos son con cupos reducidos, se aseguran el lugar realizando la inscripción y abonando la cuota.
           </StepLabel>
         </Grid>
